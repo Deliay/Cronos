@@ -1,9 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>Cronos-ZeroAsh-Just-For-Testing</PackageId>
     <TargetFramework>net8.0</TargetFramework>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <Version>0.8.4-Zero</Version>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>
