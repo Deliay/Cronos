@@ -5,15 +5,10 @@ VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronos", "src\Cronos\Cronos.csproj", "{55AFE501-212E-4360-9C4B-D9958EA20124}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cronos.Tests", "tests\Cronos.Tests\Cronos.Tests.csproj", "{EDAA9F0C-DABC-486E-B58F-472658629EDD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cronos.Benchmarks", "benchmarks\Cronos.Benchmarks\Cronos.Benchmarks.csproj", "{841F8D1B-54E5-4173-AC1A-318B7BD73A8B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E7E9BEA8-5972-4B89-89C6-F7FB876F52FF}"
 	ProjectSection(SolutionItems) = preProject
-		appveyor.yml = appveyor.yml
-		Directory.build.props = Directory.build.props
-		psake-project.ps1 = psake-project.ps1
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
@@ -58,22 +53,6 @@ Global
 		{55AFE501-212E-4360-9C4B-D9958EA20124}.Release|x64.Build.0 = Release|Any CPU
 		{55AFE501-212E-4360-9C4B-D9958EA20124}.Release|x86.ActiveCfg = Release|Any CPU
 		{55AFE501-212E-4360-9C4B-D9958EA20124}.Release|x86.Build.0 = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|ARM.Build.0 = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|x64.Build.0 = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Debug|x86.Build.0 = Debug|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|ARM.ActiveCfg = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|ARM.Build.0 = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|x64.ActiveCfg = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|x64.Build.0 = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|x86.ActiveCfg = Release|Any CPU
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD}.Release|x86.Build.0 = Release|Any CPU
 		{841F8D1B-54E5-4173-AC1A-318B7BD73A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{841F8D1B-54E5-4173-AC1A-318B7BD73A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{841F8D1B-54E5-4173-AC1A-318B7BD73A8B}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -97,6 +76,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{55AFE501-212E-4360-9C4B-D9958EA20124} = {6CCA8557-BAA6-43C7-B16F-03AE845AA7C9}
 		{841F8D1B-54E5-4173-AC1A-318B7BD73A8B} = {B9763689-55C4-4759-B374-C0AB7E9F7843}
-		{EDAA9F0C-DABC-486E-B58F-472658629EDD} = {F69A71BE-736C-4A27-8DFA-7740B585039A}
 	EndGlobalSection
 EndGlobal
